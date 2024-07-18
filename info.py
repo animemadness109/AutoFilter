@@ -24,16 +24,16 @@ START_IMG = environ.get('START_IMG', 'https://graph.org/file/208ae1ffacc082167db
 QR_CODE = environ.get('QR_CODE', '')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/cosmic_freak")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie7xchat')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7195990500').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/LUFFY1JOYBOY")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002100963256'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Anime_Madness_Filter_Group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001619818259').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cluster0.fq7ee6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @codflix_bots</b>")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Anime_Madness</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 #chatgptAI
